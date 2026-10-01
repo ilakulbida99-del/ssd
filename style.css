@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: rgb(252, 249, 249);
+    -webkit-text-stroke: 1px black;
+    /* Толщина контура и цвет */
+
+}
+
+#main_body {
+    display: flex;
+    justify-content: center;
+    background-image: url(/img/фонн.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    align-items: center;
+    button{
+        background: none;
+        border: none;
+    }
+    button:active{
+        transform: scale(0.9);
+    }
+}
+
+#index2_start {
+    height: 100vh;
+    background-image: url(/img/фонн.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+        width: 40%;
+    }
+
+    img {
+        width: 20%;
+    }
+}
+
+.index2_text {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+
+    h1 {
+        font-size: 4vw;
+    }
+}
+
+#main_body_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.main_text {
+    flex-direction: column;
+    gap: 50px;
+    display: flex;
+    height: 50%;
+    width: 30%;
+
+    h1 {
+        font-size: 4vw;
+    }
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        width: 50%;
+    }
+
+    button:active {
+        transform: scale(0.9);
+    }
+}
+
+#index_photo1 {
+    background-image: url(/img/фонн.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 50px;
+    img{
+        width: 20%;
+    }
+
+    h1 {
+        font-size: 4vw;
+    }
+
+    img {
+        width: 20%;
+    }
+}
+.index_photo1_class{
+     background-image: url(/img/фонн.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 50px;
+    img{
+        width: 20%;
+    }
+
+    h1 {
+        font-size: 4vw;
+    }
+
+    img {
+        width: 20%;
+    }
+}
+#index_photo2 {
+    background-image: url(/img/фонн.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+
+    h1 {
+        font-size: 4vw;
+    }
+
+    img {
+        width: 20%;
+    }
+}
+.index_photo2_class{
+    background-image: url(/img/фонн.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+    img{
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 4vw;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+.btn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    button{
+        font-size: 1vw;
+    }
+    img{
+        width: 45%;
+    }
+    button:active{
+        transform: scale(0.9);
+    }
+}
+#next_btn{
+    background: none;
+    border: none;
+}
+#video_body{
+    background-image: url(/img/фонн.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    video{
+        height: 50vh;
+        width: 50%;
+    }
+    button{
+        width: 20%;
+        img{
+            width: 40%;
+        }
+        background: none;
+        border: none;
+    }
+    button:active{
+        transform: scale(0.9);
+    }
+}
